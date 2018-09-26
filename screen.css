@@ -16,7 +16,8 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  }
 
 body {
   line-height: 1; }
@@ -47,7 +48,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   font-family: sans-serif;
-  color: #2a2a2a; }
+  color: #2a2a2a;
+  background-color: #EEE5E9;
+}
 
 a {
   color: #0388a6; }
@@ -55,4 +58,26 @@ a {
     color: #009ce0; }
 
 #main {
-  padding: 50px; }
+ /* padding: 50px;*/ }
+  
+ h2 {
+	border-bottom: 3px solid #84A9C0;
+	font-size: 2em;
+	padding: 5px 10px 15px 10px;
+ }
+ 
+ h1 {
+	font-size: 3em;
+	padding: 10px;
+ }
+ 
+ h1, h2 {
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+ }
+ 
+ header {
+	background-color: #FFFFFF;
+	margin: 0;
+	
+ }
