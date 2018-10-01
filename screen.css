@@ -81,3 +81,28 @@ a {
 	margin: 0;
 	
  }
+
+ #scratch, #readings {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+ }
+
+ #scratch div, #readings div {
+  border: 2px solid #000;
+  height: 25vw;
+  width: 25vw;
+  margin: 15px;
+ }
+
+ #scratch div a, #readings div a {
+  height: 100%;
+  display: block;
+ }
+
+ h3 {
+  font-size: 1.5em;
+  padding: 25px 15px 15px 15px;
+ }
+
+
