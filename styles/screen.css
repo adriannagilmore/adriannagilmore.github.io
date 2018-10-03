@@ -98,11 +98,6 @@ a {
   display: block;
  }
 
- #scratch div a:hover, #readings div a:hover {
-  border: 3px solid #FFF;
- }
-
-
  h3 {
   font-size: 1.5em;
   padding: 25px 15px 15px 15px;
