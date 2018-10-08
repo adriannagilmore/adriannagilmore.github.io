@@ -47,7 +47,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto Mono', monospace;
   color: #2a2a2a;
   background-color: #EEE5E9;
 }
@@ -80,20 +80,31 @@ a {
 	
  }
 
- #scratch, #readings {
+ #scratch p {
+  padding: 5px;
+ }
+
+ #cs160, #scratch, #readings {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
  }
 
- #scratch div, #readings div {
+ #scratch div {
+   border: 2px solid #000;
+   height: auto;
+   width: auto;
+   margin: 15px;
+ }
+
+ #cs160 div, #readings div {
   border: 2px solid #000;
   height: 25vw;
   width: 25vw;
   margin: 15px;
  }
 
- #scratch div a, #readings div a {
+ #cs160 div a, #scratch div a, #readings div a {
   height: 100%;
   display: block;
  }
