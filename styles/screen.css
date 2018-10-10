@@ -80,11 +80,11 @@ a {
 	
  }
 
- #scratch p {
+ #scratch p, #scratch a {
   padding: 5px;
  }
 
- #cs160, #scratch, #readings {
+ #cs160, #scratch, #readings, #colleges {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -97,14 +97,14 @@ a {
    margin: 15px;
  }
 
- #cs160 div, #readings div {
+ #cs160 div, #readings div, #colleges div {
   border: 2px solid #000;
   height: 25vw;
   width: 25vw;
   margin: 15px;
  }
 
- #cs160 div a, #scratch div a, #readings div a {
+ #cs160 div a, #scratch div a, #readings div a, #colleges div a {
   height: 100%;
   display: block;
  }
@@ -125,6 +125,13 @@ a {
    background-image: url(../images/code.jpg);
    background-size: cover;
    background-repeat: no-repeat;
+ }
+
+ #osu {
+  background-image: url(../images/osu.png);
+  background-size: 24vw;
+  background-repeat: no-repeat;
+  background-position: 7px 150px;
  }
 
 
