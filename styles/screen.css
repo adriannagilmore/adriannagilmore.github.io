@@ -46,10 +46,36 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
+/*my styles*/  
+
 body {
   font-family: 'Roboto Mono', monospace;
   color: #2a2a2a;
   background-color: #EEE5E9;
+}
+
+nav {
+  border-bottom: 3px solid #84A9C0;
+  text-align: center;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000;
+	margin: 1.5vw;
+}
+
+nav ul li a:hover {
+	color: #CEABB1;
 }
 
 a {
@@ -59,7 +85,6 @@ a {
 
   
  h2 {
-	border-bottom: 3px solid #84A9C0;
 	font-size: 2em;
 	padding: 5px 10px 15px 10px;
  }
@@ -84,7 +109,7 @@ a {
   padding: 5px;
  }
 
- #cs160, #scratch, #readings, #colleges {
+ #cs160, #scratch, #readings, #colleges, #app {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -97,14 +122,14 @@ a {
    margin: 15px;
  }
 
- #cs160 div, #readings div, #colleges div {
+ #cs160 div, #readings div, #colleges div, #app div {
   border: 2px solid #000;
   height: 25vw;
   width: 25vw;
   margin: 15px;
  }
 
- #cs160 div a, #readings div a, #colleges div a {
+ #readings div a, #colleges div a, #app div a {
   height: 100%;
   display: block;
  }
@@ -117,6 +142,55 @@ a {
   font-size: 1.5em;
   padding: 25px 15px 15px 15px;
  }
+
+ #cs160 a {
+  padding: 50px 15px;
+  background-color: rgba(255,255,255,0);
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+ }
+
+ #cs160 a:hover {
+   background-color: rgba(255,255,255,0.75);
+   color: #000;
+ }
+
+ .cs160 a{
+   text-decoration: none;
+   color: #000;
+ }
+
+ .cs160 a:hover {
+   color: #84A9C0;
+ }
+
+ .scratch {
+   background-image: url(../images/rockpaperscissors.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: -100px;
+ }
+
+ .readings {
+  background-image: url(../images/books.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.colleges {
+  background-image: url(../images/backpack.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -75px;
+}
+
+.app {
+  background-image: url(../images/phone.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -75px;
+}
 
  #dreaming {
    background-image: url(../images/dreaming.jpg);
@@ -136,6 +210,19 @@ a {
   background-size: 24vw;
   background-repeat: no-repeat;
   background-position: 7px 150px;
+ }
+
+ #psu {
+  background-image: url(../images/psu.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 70px 50px;
+ }
+
+ #magic8 {
+   background-image: url(../images/magic8ball.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
  }
 
 
