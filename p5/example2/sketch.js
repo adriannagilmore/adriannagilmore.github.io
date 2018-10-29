@@ -1,5 +1,4 @@
 function setup() {
-  //createCanvas(700,400);
   createCanvas(500, 500, WEBGL);
 }
 
@@ -9,7 +8,6 @@ function draw() {
     } else {
       fill('#f0a6ca');
       }
- // triangle(30, 75, 58, 20, 86, 75);
 
  background(200);
  sphere(200);

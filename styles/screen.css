@@ -256,3 +256,9 @@ a {
   margin: 15px;
  }
 
+ .rubric {
+  background-image: url(../images/rubric.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+
