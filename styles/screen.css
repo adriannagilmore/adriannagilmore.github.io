@@ -122,6 +122,13 @@ a {
    margin: 15px;
  }
 
+ #codehs div {
+  border: 2px solid #000;
+  height: 25vw;
+  width: 40vw;
+  margin: 15px; 
+ }
+
  #cs160 div, #readings div, #colleges div, #app div, #p5js div {
   border: 2px solid #000;
   height: 25vw;
@@ -166,7 +173,7 @@ a {
  }
 
  .scratch {
-   background-image: url(../images/rockpaperscissors.jpg);
+   background-image: url(../images/maze.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    background-position: -100px;
@@ -193,9 +200,10 @@ a {
 }
 
 .python {
-  background-image: url(../images/python.jpg);
+  background-image: url(../images/rockpaperscissors.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: -100px;
 }
 
  #dreaming {
@@ -244,9 +252,10 @@ a {
  }
 
  .p5 {
-    background-image: url(../images/p5.jpg);
+    background-image: url(../images/movement.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0 -75px;
  }
 
  #rps {
@@ -257,8 +266,37 @@ a {
  }
 
  .rubric {
-  background-image: url(../images/rubric.jpg);
+  background-image: url(../images/fall.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: -105px;
  }
+
+ #codehs1 {
+   background-image: url(../images/codehs1.JPG);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: -145px;
+ }
+
+ #codehs2 {
+  background-image: url(../images/codehs2.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -150px;
+}
+
+#codehs3 {
+  background-image: url(../images/codehs3.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -150px;
+}
+
+.codehs {
+  background-image: url(../images/turtle.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -230px;
+}
 
