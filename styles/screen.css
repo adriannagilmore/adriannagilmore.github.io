@@ -206,6 +206,12 @@ a {
   background-position: -100px;
 }
 
+.circuits {
+  background-image: url(../images/lights.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
  #dreaming {
    background-image: url(../images/dreaming.jpg);
    background-size: cover;
@@ -217,6 +223,27 @@ a {
    background-image: url(../images/code.jpg);
    background-size: cover;
    background-repeat: no-repeat;
+ }
+
+ #mud {
+  background-image: url(../images/mud.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -25px;
+ }
+
+ #devops {
+  background-image: url(../images/devop.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -25px;
+ }
+
+ #pain {
+  background-image: url(../images/pain.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -100px;
  }
 
  #osu {
