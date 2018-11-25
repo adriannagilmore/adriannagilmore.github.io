@@ -129,14 +129,14 @@ a {
   margin: 15px; 
  }
 
- #cs160 div, #readings div, #colleges div, #app div, #p5js div {
+ #cs160 div, #readings div, #colleges div, #app div, #p5js div, #circuits div {
   border: 2px solid #000;
   height: 25vw;
   width: 25vw;
   margin: 15px;
  }
 
- #readings div a, #colleges div a, #app div a, #p5js a {
+ #readings div a, #colleges div a, #app div a, #p5js a, #circuits a {
   height: 100%;
   display: block;
  }
@@ -325,5 +325,32 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: -230px;
+}
+
+#half-adder {
+  background-image: url(../images/halfadder.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -40px;
+}
+
+#full-adder {
+  background-image: url(../images/fulladder.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -15px;
+}
+
+#eight-bit {
+  background-image: url(../images/8bitadder.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#add-sub {
+  background-image: url(../images/addsub.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -25px;
 }
 
