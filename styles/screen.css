@@ -129,7 +129,7 @@ a {
   margin: 15px; 
  }
 
- #cs160 div, #readings div, #colleges div, #app div, #p5js div, #circuits div {
+ #cs160 div, #readings div, #colleges div, #app div, #p5js div, #circuits div, #nand div {
   border: 2px solid #000;
   height: 25vw;
   width: 25vw;
@@ -172,6 +172,7 @@ a {
    color: #84A9C0;
  }
 
+ /*images*/
  .scratch {
    background-image: url(../images/maze.jpg);
    background-size: cover;
@@ -352,5 +353,100 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: -25px;
+}
+
+#nand-not {
+  background-image: url(../images/notgate.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nand-and {
+  background-image: url(../images/andgate.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nand-or {
+  background-image: url(../images/orgate.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nand-xor {
+  background-image: url(../images/xorgate.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nand-mux {
+  background-image: url(../images/mux.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nand-dmux {
+  background-image: url(../images/dmux.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nand-not16 {
+  background-image: url(../images/not16gate.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nand-and16 {
+  background-image: url(../images/and16gate.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nand-or16 {
+  background-image: url(../images/or16.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nand-mux16 {
+  background-image: url(../images/mux.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nand-or8way {
+  background-image: url(../images/or8waygate.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nand-mux4way {
+  background-image: url(../images/mux4way16.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nand-mux8way {
+  background-image: url(../images/mux8way16.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#nand-dmux4way {
+  background-image: url(../images/dmux4way.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nand-dmux8way {
+  background-image: url(../images/dmux8way.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nand {
+  background-image: url(../images/project.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
