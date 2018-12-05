@@ -247,6 +247,12 @@ a {
   background-position: -100px;
  }
 
+ #softwareishard {
+   background-image: url(../images/softwareishard.JPG);
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
  #osu {
   background-image: url(../images/osu.png);
   background-size: 24vw;
