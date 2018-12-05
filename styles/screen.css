@@ -129,7 +129,7 @@ a {
   margin: 15px; 
  }
 
- #cs160 div, #readings div, #colleges div, #app div, #p5js div, #circuits div, #nand div {
+ #cs160 div, #readings div, #colleges div, #app div, #p5js div, #circuits div, #nand div, #extra div {
   border: 2px solid #000;
   height: 25vw;
   width: 25vw;
@@ -448,5 +448,46 @@ a {
   background-image: url(../images/project.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#codecamp1 {
+  background-image: url(../images/codecamp1.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -75px;
+}
+
+#codecamp2 {
+  background-image: url(../images/codecamp2.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -75px;
+}
+
+#codecamp3 {
+  background-image: url(../images/codecamp3.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -50px;
+}
+
+.finalexam {
+  background-image: url(../images/typewriter.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -150px;
+}
+
+.finalrubric {
+  background-image: url(../images/winter.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.extra {
+  background-image: url(../images/donuts.jpg);
+  background-size: cover;
+  background-size: repeat;
+  background-position: 0 -125px;
 }
 
