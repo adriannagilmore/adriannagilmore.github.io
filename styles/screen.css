@@ -285,6 +285,13 @@ a {
     background-repeat: no-repeat;
  }
 
+ #ex3 {
+  background-image: url(../images/p5ex3.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -75px;
+}
+
  .p5 {
     background-image: url(../images/movement.jpg);
     background-size: cover;
