@@ -368,6 +368,27 @@ a {
   background-position: -25px;
 }
 
+#adding-machine {
+  background-image: url(../images/adding-machine.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -25px;
+}
+
+#edge-flip-flop {
+  background-image: url(../images/edge-trig-flip-flop.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -40px;
+}
+
+#ripplecounter {
+  background-image: url(../images/ripplecounter.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -40px;
+}
+
 #nand-not {
   background-image: url(../images/notgate.JPG);
   background-size: cover;
