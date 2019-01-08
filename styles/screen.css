@@ -129,7 +129,7 @@ a {
   margin: 15px; 
  }
 
- #cs160 div, #readings div, #colleges div, #app div, #p5js div, #circuits div, #nand div, #extra div, #robot div {
+ #cs160 div, #readings div, #colleges div, #app div, #p5js div, #circuits div, #nand div, #extra div, #robot div, #cs161 div {
   border: 2px solid #000;
   height: 25vw;
   width: 25vw;
@@ -150,7 +150,7 @@ a {
   padding: 25px 15px 15px 15px;
  }
 
- #cs160 a {
+ #cs160 a, #cs161 a {
   padding: 50px 15px;
   background-color: rgba(255,255,255,0);
   display: block;
@@ -158,7 +158,7 @@ a {
   color: #FFF;
  }
 
- #cs160 a:hover {
+ #cs160 a:hover, #cs161 a:hover {
    background-color: rgba(255,255,255,0.75);
    color: #000;
  }
@@ -539,3 +539,23 @@ a {
   background-position: -75px;
 }
 
+/*CS161*/
+#introduction {
+  background-image: url(../images/selfie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.java {
+  background-image: url(../images/bluej.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -75px;
+}
+
+#java1 {
+  background-image: url(../images/java1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -75px;
+}
