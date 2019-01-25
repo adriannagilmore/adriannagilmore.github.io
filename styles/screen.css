@@ -559,3 +559,10 @@ a {
   background-repeat: no-repeat;
   background-position: -75px;
 }
+
+#java2 {
+  background-image: url(../images/java2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -75px;
+}
