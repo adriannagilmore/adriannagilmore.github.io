@@ -566,3 +566,10 @@ a {
   background-repeat: no-repeat;
   background-position: -75px;
 }
+
+#java3 {
+  background-image: url(../images/java3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -100px;
+}
