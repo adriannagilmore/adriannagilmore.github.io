@@ -573,3 +573,10 @@ a {
   background-repeat: no-repeat;
   background-position: -100px;
 }
+
+#java4 {
+  background-image: url(../images/java4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -100px;
+}
